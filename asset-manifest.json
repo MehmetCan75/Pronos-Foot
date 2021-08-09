@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pronos-Foot/static/css/main.e5e08c47.chunk.css",
-    "main.js": "/Pronos-Foot/static/js/main.44e617bb.chunk.js",
-    "main.js.map": "/Pronos-Foot/static/js/main.44e617bb.chunk.js.map",
+    "main.js": "/Pronos-Foot/static/js/main.df51c4ae.chunk.js",
+    "main.js.map": "/Pronos-Foot/static/js/main.df51c4ae.chunk.js.map",
     "runtime-main.js": "/Pronos-Foot/static/js/runtime-main.22a0197f.js",
     "runtime-main.js.map": "/Pronos-Foot/static/js/runtime-main.22a0197f.js.map",
     "static/js/2.e8e02a6c.chunk.js": "/Pronos-Foot/static/js/2.e8e02a6c.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.22a0197f.js",
     "static/js/2.e8e02a6c.chunk.js",
     "static/css/main.e5e08c47.chunk.css",
-    "static/js/main.44e617bb.chunk.js"
+    "static/js/main.df51c4ae.chunk.js"
   ]
 }
