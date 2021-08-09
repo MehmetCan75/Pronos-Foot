@@ -48,14 +48,14 @@
 .teamsName{
     display: flex;
     align-items: center;
-    width: 13vw;
+    width: 12vw;
 }
 
 #firstGame, #secondGame {
     margin-top: 3vh
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .games{
         display: flex;
         justify-content: space-evenly;
