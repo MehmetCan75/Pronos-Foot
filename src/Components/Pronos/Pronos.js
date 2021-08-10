@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import './Pronos.css'
-import SpartakMoscou from './TeamsPic/spartakMoscou.svg'
-import Benfica from './TeamsPic/benfica.svg'
-import SpartaPrague from './TeamsPic/spartaPrague.svg'
-import Monaco from './TeamsPic/monaco.png'
+// import SpartakMoscou from './TeamsPic/spartakMoscou.svg'
+// import Benfica from './TeamsPic/benfica.svg'
+// import SpartaPrague from './TeamsPic/spartaPrague.svg'
+// import Monaco from './TeamsPic/monaco.png'
+import Chelsea from './TeamsPic/chelsea.png'
+import Villareal from './TeamsPic/villarreal.svg'
 import Loading from '../Loading/Loading'
 import ResultFetch from '../Axios/ResultFetch'
 import axios from 'axios';
@@ -12,7 +14,7 @@ import axios from 'axios';
 export default function Pronos() {
 
     const [afirstGame, setAfirstGame] = useState({})
-    const [bsecondGame, setBsecondGame] = useState({})
+    // const [bsecondGame, setBsecondGame] = useState({})
     const [name, setName] = useState("")
     const [thanks, setThanks] = useState("")
 
@@ -20,7 +22,7 @@ export default function Pronos() {
         e.preventDefault();
 
     axios
-        .post('https://test42452-66759-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame, name})
+        .post('https://test42452-66759-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame, name})
         .then((res) => {
             console.log(res);
             setThanks({
@@ -37,7 +39,7 @@ export default function Pronos() {
   return (
     <div className="pronos">
         <div className="title-fr">
-        <h1>Pronostics du 10 Août 2021</h1>
+        <h1>Pronostics du 11 Août 2021</h1>
         </div>      
 
 
@@ -47,12 +49,12 @@ export default function Pronos() {
         <div className="games">
 
       <div className="teamsName">
-      <img src={Monaco} alt="Monaco" className="teams-pic"/>
-        AS Monaco
+      <img src={Chelsea} alt="Chelsea" className="teams-pic"/>
+        Chelsea
         </div>
         <input
           id="firstGame"
-          value="Monaco"
+          value="Chelsea"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
@@ -72,21 +74,21 @@ export default function Pronos() {
        
         <input
           id="firstGame"
-          value="SpartaPrague"
+          value="Villareal"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
           />
           <div className="teamsName">
-         Sparta Prague
-        <img src={SpartaPrague} alt="Sparta Prague" className="teams-pic"/>
+       <img src={Villareal} alt="Villareal" className="teams-pic"/>
+        Villareal
         </div>
 
         </div>
 
         <br />
 
-        <div className="games">
+        {/* <div className="games">
 
 <div className="teamsName">
 <img src={Benfica} alt="Benfica" className="teams-pic"/>
@@ -124,7 +126,7 @@ export default function Pronos() {
   <img src={SpartakMoscou} alt="Spartak Moscou" className="teams-pic"/>
   </div>
 
-  </div>
+  </div> */}
 
         <br />
 

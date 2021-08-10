@@ -1,9 +1,10 @@
 .pronos {
-    background-image: url('./ucl.png');
+    background-image: url('./stade.jpeg');
     background-color: black;
     height: 90vh;
     width: 100vw;
     color: white;
+    background-repeat: round;
 
 }
 
@@ -49,6 +50,7 @@
     display: flex;
     align-items: center;
     width: 12vw;
+    flex-direction: column-reverse;
 }
 
 #firstGame, #secondGame {
