@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.01593561.chunk.css",
-    "main.js": "/Pronos-Foot/static/js/main.950ec459.chunk.js",
-    "main.js.map": "/Pronos-Foot/static/js/main.950ec459.chunk.js.map",
+    "main.css": "/Pronos-Foot/static/css/main.35507506.chunk.css",
+    "main.js": "/Pronos-Foot/static/js/main.7b4bd48c.chunk.js",
+    "main.js.map": "/Pronos-Foot/static/js/main.7b4bd48c.chunk.js.map",
     "runtime-main.js": "/Pronos-Foot/static/js/runtime-main.22a0197f.js",
     "runtime-main.js.map": "/Pronos-Foot/static/js/runtime-main.22a0197f.js.map",
-    "static/js/2.de7b201d.chunk.js": "/Pronos-Foot/static/js/2.de7b201d.chunk.js",
-    "static/js/2.de7b201d.chunk.js.map": "/Pronos-Foot/static/js/2.de7b201d.chunk.js.map",
+    "static/js/2.4426cbaa.chunk.js": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js",
+    "static/js/2.4426cbaa.chunk.js.map": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js.map",
     "index.html": "/Pronos-Foot/index.html",
-    "static/css/main.01593561.chunk.css.map": "/Pronos-Foot/static/css/main.01593561.chunk.css.map",
-    "static/js/2.de7b201d.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.de7b201d.chunk.js.LICENSE.txt",
+    "static/css/main.35507506.chunk.css.map": "/Pronos-Foot/static/css/main.35507506.chunk.css.map",
+    "static/js/2.4426cbaa.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js.LICENSE.txt",
     "static/media/benfica.398d4901.svg": "/Pronos-Foot/static/media/benfica.398d4901.svg",
     "static/media/football.e76db989.svg": "/Pronos-Foot/static/media/football.e76db989.svg",
     "static/media/spartaPrague.aba942c3.svg": "/Pronos-Foot/static/media/spartaPrague.aba942c3.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.22a0197f.js",
-    "static/js/2.de7b201d.chunk.js",
-    "static/css/main.01593561.chunk.css",
-    "static/js/main.950ec459.chunk.js"
+    "static/js/2.4426cbaa.chunk.js",
+    "static/css/main.35507506.chunk.css",
+    "static/js/main.7b4bd48c.chunk.js"
   ]
 }
