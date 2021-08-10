@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.35507506.chunk.css",
-    "main.js": "/Pronos-Foot/static/js/main.7b4bd48c.chunk.js",
-    "main.js.map": "/Pronos-Foot/static/js/main.7b4bd48c.chunk.js.map",
+    "main.css": "/Pronos-Foot/static/css/main.39c2191a.chunk.css",
+    "main.js": "/Pronos-Foot/static/js/main.e083e4f7.chunk.js",
+    "main.js.map": "/Pronos-Foot/static/js/main.e083e4f7.chunk.js.map",
     "runtime-main.js": "/Pronos-Foot/static/js/runtime-main.22a0197f.js",
     "runtime-main.js.map": "/Pronos-Foot/static/js/runtime-main.22a0197f.js.map",
-    "static/js/2.4426cbaa.chunk.js": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js",
-    "static/js/2.4426cbaa.chunk.js.map": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js.map",
+    "static/js/2.26b9899a.chunk.js": "/Pronos-Foot/static/js/2.26b9899a.chunk.js",
+    "static/js/2.26b9899a.chunk.js.map": "/Pronos-Foot/static/js/2.26b9899a.chunk.js.map",
     "index.html": "/Pronos-Foot/index.html",
-    "static/css/main.35507506.chunk.css.map": "/Pronos-Foot/static/css/main.35507506.chunk.css.map",
-    "static/js/2.4426cbaa.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.4426cbaa.chunk.js.LICENSE.txt",
-    "static/media/benfica.398d4901.svg": "/Pronos-Foot/static/media/benfica.398d4901.svg",
+    "static/css/main.39c2191a.chunk.css.map": "/Pronos-Foot/static/css/main.39c2191a.chunk.css.map",
+    "static/js/2.26b9899a.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.26b9899a.chunk.js.LICENSE.txt",
     "static/media/football.e76db989.svg": "/Pronos-Foot/static/media/football.e76db989.svg",
-    "static/media/spartaPrague.aba942c3.svg": "/Pronos-Foot/static/media/spartaPrague.aba942c3.svg",
-    "static/media/spartakMoscou.d9182a10.svg": "/Pronos-Foot/static/media/spartakMoscou.d9182a10.svg",
-    "static/media/Pronos.css": "/Pronos-Foot/static/media/ucl.e9827434.png"
+    "static/media/Pronos.css": "/Pronos-Foot/static/media/stade.44929b43.jpeg",
+    "static/media/villarreal.2e0a9b6e.svg": "/Pronos-Foot/static/media/villarreal.2e0a9b6e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.22a0197f.js",
-    "static/js/2.4426cbaa.chunk.js",
-    "static/css/main.35507506.chunk.css",
-    "static/js/main.7b4bd48c.chunk.js"
+    "static/js/2.26b9899a.chunk.js",
+    "static/css/main.39c2191a.chunk.css",
+    "static/js/main.e083e4f7.chunk.js"
   ]
 }
