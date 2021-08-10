@@ -6,8 +6,8 @@ export default function ResultDisplay(props) {
     <div>
         <p className="playerName">Nom : {props.name}</p>
         <ul className="displayResult">
-            <li>Monaco - Sparta Prague : {props.afirstGame}</li>
-            <li>Benfica - Spartak Moscou : {props.bsecondGame}</li>
+            <li>Chelsea - Villareal : {props.afirstGame}</li>
+            {/* <li>Benfica - Spartak Moscou : {props.bsecondGame}</li> */}
             </ul>
     </div>
   )
