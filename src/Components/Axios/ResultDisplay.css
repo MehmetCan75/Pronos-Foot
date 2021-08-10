@@ -1,0 +1,10 @@
+.displayResult {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    background-color: grey
+}
+
+.playerName{
+    color: white;
+}

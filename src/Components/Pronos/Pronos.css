@@ -55,6 +55,25 @@
     margin-top: 3vh
 }
 
+.showLoad {
+    animation: cssAnimation 0s 5s forwards;
+    visibility: visible;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: hidden; }
+}
+
+.showMerci {
+    animation: cssAnimations 0s 5s forwards;
+    visibility: hidden;
+}
+
+@keyframes cssAnimations {
+  to   { visibility: visible; }
+}
+
+
 @media screen and (max-width: 780px) {
     .games{
         display: flex;
@@ -62,7 +81,7 @@
     }
 
     .teamsName {
-        width: 20vw
+        width: 27vw
     }
 }
 

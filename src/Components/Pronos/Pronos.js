@@ -4,6 +4,8 @@ import SpartakMoscou from './TeamsPic/spartakMoscou.svg'
 import Benfica from './TeamsPic/benfica.svg'
 import SpartaPrague from './TeamsPic/spartaPrague.svg'
 import Monaco from './TeamsPic/monaco.png'
+import Loading from '../Loading/Loading'
+import ResultFetch from '../Axios/ResultFetch'
 import axios from 'axios';
 
 
@@ -13,9 +15,6 @@ export default function Pronos() {
     const [bsecondGame, setBsecondGame] = useState({})
     const [name, setName] = useState("")
     const [thanks, setThanks] = useState("")
-    
-
-    
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -32,15 +31,14 @@ export default function Pronos() {
         .catch((err) => {
             console.log(err)
         })
-
-        
-    }
+  
+    };
     
   return (
     <div className="pronos">
         <div className="title-fr">
         <h1>Pronostics du 10 Août 2021</h1>
-        </div>
+        </div>      
 
 
       {!thanks ?
@@ -49,12 +47,12 @@ export default function Pronos() {
         <div className="games">
 
       <div className="teamsName">
-      <img src={Monaco} alt="monaco" className="teams-pic"/>
+      <img src={Monaco} alt="Monaco" className="teams-pic"/>
         AS Monaco
         </div>
         <input
           id="firstGame"
-          value="monaco"
+          value="Monaco"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
@@ -74,14 +72,14 @@ export default function Pronos() {
        
         <input
           id="firstGame"
-          value="spartaPrague"
+          value="SpartaPrague"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
           />
           <div className="teamsName">
          Sparta Prague
-        <img src={SpartaPrague} alt="barcelona" className="teams-pic"/>
+        <img src={SpartaPrague} alt="Sparta Prague" className="teams-pic"/>
         </div>
 
         </div>
@@ -91,13 +89,13 @@ export default function Pronos() {
         <div className="games">
 
 <div className="teamsName">
-<img src={Benfica} alt="monaco" className="teams-pic"/>
+<img src={Benfica} alt="Benfica" className="teams-pic"/>
   Benfica
   </div>
   <input
     id="secondGame"
-    value="monaco"
-    name="firstGame"
+    value="Benfica"
+    name="secondGame"
     type="radio"
     onChange={e => setBsecondGame(e.target.value)}
     required
@@ -108,7 +106,7 @@ export default function Pronos() {
   <input
     id="nul"
     value="nul"
-    name="firstGame"
+    name="secondGame"
     type="radio"
     onChange={e => setBsecondGame(e.target.value)}
   />
@@ -116,14 +114,14 @@ export default function Pronos() {
  
   <input
     id="secondGame"
-    value="spartaPrague"
-    name="firstGame"
+    value="Sparta Prague"
+    name="secondGame"
     type="radio"
     onChange={e => setBsecondGame(e.target.value)}
     />
     <div className="teamsName">
    Spartak Moscou
-  <img src={SpartakMoscou} alt="barcelona" className="teams-pic"/>
+  <img src={SpartakMoscou} alt="Spartak Moscou" className="teams-pic"/>
   </div>
 
   </div>
@@ -146,7 +144,11 @@ Votre nom :
 
         <button>Envoyer</button>
       </form>
-: "Merci"}
+      : <div><div><Loading /></div>
+        <h2 className="showMerci">Merci</h2>
+        <ResultFetch />
+      </div>}
+
 
 
     </div>
