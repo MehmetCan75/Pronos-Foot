@@ -1,23 +1,41 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.39c2191a.chunk.css",
-    "main.js": "/Pronos-Foot/static/js/main.3af1d773.chunk.js",
-    "main.js.map": "/Pronos-Foot/static/js/main.3af1d773.chunk.js.map",
+    "main.css": "/Pronos-Foot/static/css/main.3c64d964.chunk.css",
+    "main.js": "/Pronos-Foot/static/js/main.e979bcd5.chunk.js",
+    "main.js.map": "/Pronos-Foot/static/js/main.e979bcd5.chunk.js.map",
     "runtime-main.js": "/Pronos-Foot/static/js/runtime-main.22a0197f.js",
     "runtime-main.js.map": "/Pronos-Foot/static/js/runtime-main.22a0197f.js.map",
-    "static/js/2.26b9899a.chunk.js": "/Pronos-Foot/static/js/2.26b9899a.chunk.js",
-    "static/js/2.26b9899a.chunk.js.map": "/Pronos-Foot/static/js/2.26b9899a.chunk.js.map",
+    "static/js/2.f6a78952.chunk.js": "/Pronos-Foot/static/js/2.f6a78952.chunk.js",
+    "static/js/2.f6a78952.chunk.js.map": "/Pronos-Foot/static/js/2.f6a78952.chunk.js.map",
     "index.html": "/Pronos-Foot/index.html",
-    "static/css/main.39c2191a.chunk.css.map": "/Pronos-Foot/static/css/main.39c2191a.chunk.css.map",
-    "static/js/2.26b9899a.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.26b9899a.chunk.js.LICENSE.txt",
+    "static/css/main.3c64d964.chunk.css.map": "/Pronos-Foot/static/css/main.3c64d964.chunk.css.map",
+    "static/js/2.f6a78952.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.f6a78952.chunk.js.LICENSE.txt",
+    "static/media/Pronos.css": "/Pronos-Foot/static/media/Ligue1UberEats.ab2e24ab.jpeg",
+    "static/media/angers.6d452cc2.svg": "/Pronos-Foot/static/media/angers.6d452cc2.svg",
+    "static/media/bordeaux.94d2ee81.svg": "/Pronos-Foot/static/media/bordeaux.94d2ee81.svg",
+    "static/media/brest.e2b95194.png": "/Pronos-Foot/static/media/brest.e2b95194.png",
+    "static/media/clermont.6267fd3f.svg": "/Pronos-Foot/static/media/clermont.6267fd3f.svg",
     "static/media/football.e76db989.svg": "/Pronos-Foot/static/media/football.e76db989.svg",
-    "static/media/Pronos.css": "/Pronos-Foot/static/media/stade.44929b43.jpeg",
-    "static/media/villarreal.2e0a9b6e.svg": "/Pronos-Foot/static/media/villarreal.2e0a9b6e.svg"
+    "static/media/lens.2248fc12.svg": "/Pronos-Foot/static/media/lens.2248fc12.svg",
+    "static/media/lille.fcfea09a.svg": "/Pronos-Foot/static/media/lille.fcfea09a.svg",
+    "static/media/lorient.848cb48d.svg": "/Pronos-Foot/static/media/lorient.848cb48d.svg",
+    "static/media/lyon.ee60f972.svg": "/Pronos-Foot/static/media/lyon.ee60f972.svg",
+    "static/media/marseille.350e2eeb.svg": "/Pronos-Foot/static/media/marseille.350e2eeb.svg",
+    "static/media/metz.3c2f5e41.svg": "/Pronos-Foot/static/media/metz.3c2f5e41.svg",
+    "static/media/montpellier.34a9b394.png": "/Pronos-Foot/static/media/montpellier.34a9b394.png",
+    "static/media/nantes.0f30845e.svg": "/Pronos-Foot/static/media/nantes.0f30845e.svg",
+    "static/media/nice.f3656ae4.svg": "/Pronos-Foot/static/media/nice.f3656ae4.svg",
+    "static/media/psg.626d0ebb.svg": "/Pronos-Foot/static/media/psg.626d0ebb.svg",
+    "static/media/reims.d8df5802.png": "/Pronos-Foot/static/media/reims.d8df5802.png",
+    "static/media/rennes.68e4d8b9.svg": "/Pronos-Foot/static/media/rennes.68e4d8b9.svg",
+    "static/media/saint-etienne.b3ff1ee1.svg": "/Pronos-Foot/static/media/saint-etienne.b3ff1ee1.svg",
+    "static/media/strasbourg.9ef2fb02.svg": "/Pronos-Foot/static/media/strasbourg.9ef2fb02.svg",
+    "static/media/troyes.918f0c52.svg": "/Pronos-Foot/static/media/troyes.918f0c52.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.22a0197f.js",
-    "static/js/2.26b9899a.chunk.js",
-    "static/css/main.39c2191a.chunk.css",
-    "static/js/main.3af1d773.chunk.js"
+    "static/js/2.f6a78952.chunk.js",
+    "static/css/main.3c64d964.chunk.css",
+    "static/js/main.e979bcd5.chunk.js"
   ]
 }
