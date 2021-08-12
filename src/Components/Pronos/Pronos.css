@@ -1,10 +1,15 @@
 .pronos {
-    background-image: url('./stade.jpeg');
+    /* background-image: url('./Background/Ligue1UberEats.jpeg');
+    background-size: cover;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; */
     background-color: black;
-    height: 90vh;
+    height: 100%;
     width: 100vw;
     color: white;
-    background-repeat: round;
+
 
 }
 
@@ -15,7 +20,15 @@
 
 .title-fr {
     width: 100%;
-    background-color: lightslategray;
+    height: 100px;
+    /* background-color: lightslategray; */
+    background-image: url('./Background/Ligue1UberEats.jpeg');
+    background-size: cover;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
     display: flex;
     justify-content: center;
 }

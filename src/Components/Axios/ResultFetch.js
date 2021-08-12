@@ -38,6 +38,14 @@ class ResultFetch extends Component {
           name={result.name}
           afirstGame={result.afirstGame}
           bsecondGame={result.bsecondGame}
+          cthirdGame={result.cthirdGame}
+          dfourthGame={result.dfourthGame}
+          efifthGame={result.efifthGame}
+          fsixthGame={result.fsixthGame}
+          gseventhGame={result.gseventhGame}
+          heigthGame={result.heigthGame}
+          ininethGame={result.ininethGame}
+          jtenthGame={result.jtenthGame}
            />)
       })}
     </div>

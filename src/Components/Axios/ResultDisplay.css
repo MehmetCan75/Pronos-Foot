@@ -5,6 +5,11 @@
     background-color: grey
 }
 
+.displayResult li {
+    width: 100%;
+    display: inline-flex;
+}
+
 
 
 .playerName{
