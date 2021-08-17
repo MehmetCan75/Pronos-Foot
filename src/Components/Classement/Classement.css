@@ -1,0 +1,20 @@
+.title-ranking{
+    color: white;
+}
+
+.title-ranking ul,li {
+    color: white;
+    list-style: none;
+    width: 10px;
+}
+
+.name-games-points{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.classement {
+    background-color: black;
+    height: 90vh;
+}
