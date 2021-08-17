@@ -46,7 +46,7 @@ export default function Classement() {
             <li>2</li>
         </ul>
         <ul className="name-games-points">
-            <li>Ismaêl</li>
+            <li>Ismaël</li>
             <li>10</li>
             <li>1</li>
         </ul>

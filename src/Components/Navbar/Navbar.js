@@ -27,6 +27,10 @@ export default function Navbar() {
 
     }, [])
 
+    const closeMenu = ( ) => {
+        setToggleMenu(!toggleMenu)
+    }
+
 
   return (
       <div>
@@ -37,10 +41,10 @@ export default function Navbar() {
     <nav>
         {(toggleMenu || largeur > 500)  && (
      <ul className="liste">
-         <Link to="/Pronos-Foot">
+         <Link to="/Pronos-Foot" onClick={closeMenu}>
          <li className="items">Accueil</li>
          </Link>
-         <Link to="/classement">
+         <Link to="/classement" onClick={closeMenu}>
          <li className="items">Classement</li>
          </Link>
      </ul>
