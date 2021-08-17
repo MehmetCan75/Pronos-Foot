@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.cf34c3ac.chunk.css",
-    "main.js": "/Pronos-Foot/static/js/main.1ee67352.chunk.js",
-    "main.js.map": "/Pronos-Foot/static/js/main.1ee67352.chunk.js.map",
+    "main.css": "/Pronos-Foot/static/css/main.b5bc713e.chunk.css",
+    "main.js": "/Pronos-Foot/static/js/main.c86dfd41.chunk.js",
+    "main.js.map": "/Pronos-Foot/static/js/main.c86dfd41.chunk.js.map",
     "runtime-main.js": "/Pronos-Foot/static/js/runtime-main.22a0197f.js",
     "runtime-main.js.map": "/Pronos-Foot/static/js/runtime-main.22a0197f.js.map",
     "static/js/2.a0aa89ba.chunk.js": "/Pronos-Foot/static/js/2.a0aa89ba.chunk.js",
     "static/js/2.a0aa89ba.chunk.js.map": "/Pronos-Foot/static/js/2.a0aa89ba.chunk.js.map",
     "index.html": "/Pronos-Foot/index.html",
-    "static/css/main.cf34c3ac.chunk.css.map": "/Pronos-Foot/static/css/main.cf34c3ac.chunk.css.map",
+    "static/css/main.b5bc713e.chunk.css.map": "/Pronos-Foot/static/css/main.b5bc713e.chunk.css.map",
     "static/js/2.a0aa89ba.chunk.js.LICENSE.txt": "/Pronos-Foot/static/js/2.a0aa89ba.chunk.js.LICENSE.txt",
     "static/media/Pronos.css": "/Pronos-Foot/static/media/Ligue1UberEats.ab2e24ab.jpeg",
     "static/media/angers.6d452cc2.svg": "/Pronos-Foot/static/media/angers.6d452cc2.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.22a0197f.js",
     "static/js/2.a0aa89ba.chunk.js",
-    "static/css/main.cf34c3ac.chunk.css",
-    "static/js/main.1ee67352.chunk.js"
+    "static/css/main.b5bc713e.chunk.css",
+    "static/js/main.c86dfd41.chunk.js"
   ]
 }
