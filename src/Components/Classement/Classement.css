@@ -1,8 +1,9 @@
 .title-ranking{
     color: white;
+    margin-top: 10vh
 }
 
-.title-ranking ul,li {
+.names-games-points,.nm {
     color: white;
     list-style: none;
     width: 10px;
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 0;
+    
 }
 
 .classement {
