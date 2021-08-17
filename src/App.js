@@ -12,7 +12,7 @@ function App() {
       <Router>
       <Navbar />
       <Switch>
-      <Route path="/" exact component={Pronos} />
+      <Route path="/Pronos-Foot" exact component={Pronos} />
       <Route path="/classement" exact component={Classement} />
       </Switch>
       </Router>
