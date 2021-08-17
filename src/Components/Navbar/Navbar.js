@@ -37,7 +37,7 @@ export default function Navbar() {
     <nav>
         {(toggleMenu || largeur > 500)  && (
      <ul className="liste">
-         <Link to="/">
+         <Link to="/Pronos-Foot">
          <li className="items">Accueil</li>
          </Link>
          <Link to="/classement">
