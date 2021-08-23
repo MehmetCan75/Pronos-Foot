@@ -11,8 +11,38 @@ export default function Classement() {
             <li className="nm">Points</li>
         </ul>
         <ul className="name-games-points">
+            <li className="nm">Abder</li>
+            <li className="nm">20</li>
+            <li className="nm">8</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Nicolas</li>
+            <li className="nm">20</li>
+            <li className="nm">8</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Mehmet</li>
+            <li className="nm">20</li>
+            <li className="nm">7</li>
+        </ul>
+        <ul className="name-games-points">
             <li className="nm">Youssef</li>
             <li className="nm">10</li>
+            <li className="nm">6</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Fateh</li>
+            <li className="nm">10</li>
+            <li className="nm">6</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Ismaël</li>
+            <li className="nm">20</li>
+            <li className="nm">6</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Anthony</li>
+            <li className="nm">20</li>
             <li className="nm">6</li>
         </ul>
         <ul className="name-games-points">
@@ -21,34 +51,14 @@ export default function Classement() {
             <li className="nm">5</li>
         </ul>
         <ul className="name-games-points">
-            <li className="nm">Mehmet</li>
-            <li className="nm">10</li>
-            <li className="nm">4</li>
-        </ul>
-        <ul className="name-games-points">
-            <li className="nm">Abder</li>
-            <li className="nm">10</li>
-            <li className="nm">3</li>
-        </ul>
-        <ul className="name-games-points">
-            <li className="nm">Anthony</li>
-            <li className="nm">10</li>
-            <li className="nm">3</li>
-        </ul>
-        <ul className="name-games-points">
             <li className="nm">Stéphane</li>
             <li className="nm">10</li>
             <li className="nm">3</li>
         </ul>
         <ul className="name-games-points">
-            <li className="nm">Nicolas</li>
+            <li className="nm">mp</li>
             <li className="nm">10</li>
-            <li className="nm">2</li>
-        </ul>
-        <ul className="name-games-points">
-            <li className="nm">Ismaël</li>
-            <li className="nm">10</li>
-            <li className="nm">1</li>
+            <li className="nm">3</li>
         </ul>
 
 
