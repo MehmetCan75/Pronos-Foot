@@ -4,7 +4,7 @@ import './ResultDisplay.css'
 export default function ResultDisplay(props) {
   return (
     <div>
-        <h3 className="playerName">Nom :{props.name}</h3>
+        <h3 className="playerName">Nom : {props.name}</h3>
         <ul className="displayResult">
             <li>Nantes - Lyon : {props.afirstGame}</li>
             <li>Nice - Bordeaux : {props.bsecondGame}</li>
