@@ -48,7 +48,7 @@ export default function Classement() {
         <ul className="name-games-points">
             <li className="nm">Abder</li>
             <li className="nm">50</li>
-            <li className="nm">16</li>
+            <li className="nm">26</li>
         </ul>
 
 
