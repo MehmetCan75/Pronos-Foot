@@ -50,7 +50,7 @@ export default function Pronos() {
         e.preventDefault();
 
     axios
-        .post('https://pronos-foot-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
+        .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
         .then((res) => {
             console.log(res);
             setThanks({
