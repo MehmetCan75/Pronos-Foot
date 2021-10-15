@@ -501,7 +501,7 @@ export default function Pronos() {
                       required
                     />
 
-                    <button disabled>Envoyer</button>
+                    <button>Envoyer</button>
                   </form>
                   : <div>
                     <div><Loading /></div>
