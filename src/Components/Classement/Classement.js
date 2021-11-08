@@ -12,38 +12,38 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Mehmet</li>
-            <li className="nm">110</li>
-            <li className="nm">57</li>
+            <li className="nm">120</li>
+            <li className="nm">62</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Fateh</li>
-            <li className="nm">100</li>
-            <li className="nm">51</li>
+            <li className="nm">110</li>
+            <li className="nm">54</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Stéphane</li>
-            <li className="nm">90</li>
-            <li className="nm">45</li>
+            <li className="nm">100</li>
+            <li className="nm">49</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Ismaël</li>
-            <li className="nm">90</li>
-            <li className="nm">44</li>
-        </ul>
-        <ul className="name-games-points">
-            <li className="nm">Anthony</li>
-            <li className="nm">90</li>
-            <li className="nm">42</li>
+            <li className="nm">100</li>
+            <li className="nm">48</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Nicolas</li>
+            <li className="nm">110</li>
+            <li className="nm">45</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Anthony</li>
             <li className="nm">100</li>
-            <li className="nm">42</li>
+            <li className="nm">43</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Youssef</li>
-            <li className="nm">70</li>
-            <li className="nm">37</li>
+            <li className="nm">80</li>
+            <li className="nm">39</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Abder</li>
