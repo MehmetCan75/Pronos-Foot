@@ -77,12 +77,12 @@ export default function Pronos() {
         <div className="games">
 
       <div className="teamsName">
-      <img src={Monaco} alt="Monaco" className="teams-pic"/>
-        Monaco
+      <img src={Lens} alt="Lens" className="teams-pic"/>
+        Lens
         </div>
         <input
           id="firstGame"
-          value="Monaco"
+          value="Lens"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
@@ -102,14 +102,14 @@ export default function Pronos() {
        
         <input
           id="firstGame"
-          value="Lille"
+          value="Angers"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
           />
           <div className="teamsName">
-       <img src={Lille} alt="Lille" className="teams-pic"/>
-        Lille
+       <img src={Angers} alt="Angers" className="teams-pic"/>
+       Angers
         </div>
 
         </div>
@@ -119,12 +119,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={PSG} alt="PSG" className="teams-pic"/>
-        PSG
+        <img src={Lille} alt="Lille" className="teams-pic"/>
+        Lille
         </div>
         <input
         id="secondGame"
-        value="PSG"
+        value="Lille"
         name="secondGame"
         type="radio"
         onChange={e => setBsecondGame(e.target.value)}
@@ -160,12 +160,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={Rennes} alt="Rennes" className="teams-pic"/>
-        Rennes
+        <img src={Nice} alt="Nice" className="teams-pic"/>
+        Nice
         </div>
         <input
         id="cthirdGame"
-        value="Rennes"
+        value="Nice"
         name="cthirdGame"
         type="radio"
         onChange={e => setCthirdGame(e.target.value)}
@@ -184,111 +184,111 @@ export default function Pronos() {
         </div>
         <input
         id="cthirdGame"
-        value="Montpellier"
+        value="Metz"
         name="cthirdGame"
         type="radio"
         onChange={e => setCthirdGame(e.target.value)}
         />
-        <div className="teamsName">
-        <img src={Montpellier} alt="Montpellier" className="teams-pic"/>
-        Montpellier
-        </div>
-
-        </div>
-
-        <br />
-
-        <div className="games">
-
-        <div className="teamsName">
-        <img src={Brest} alt="Brest" className="teams-pic"/>
-        Brest
-        </div>
-        <input
-        id="fourthGame"
-        value="Brest"
-        name="fourthGame"
-        type="radio"
-        onChange={e => setDfourthGame(e.target.value)}
-        required
-        />
-
-        <div className="nul">
-        Nul
-        <input
-        id="nul"
-        value="nul"
-        name="fourthGame"
-        type="radio"
-        onChange={e => setDfourthGame(e.target.value)}
-        />
-        </div>
-        <input
-        id="fourthGame"
-        value="Lens"
-        name="fourthGame"
-        type="radio"
-        onChange={e => setDfourthGame(e.target.value)}
-        />
-        <div className="teamsName">
-        <img src={Lens} alt="Lens" className="teams-pic"/>
-        Lens
-        </div>
-
-        </div>
-
-        <br />
-
-        <div className="games">
-
-        <div className="teamsName">
-        <img src={Angers} alt="Angers" className="teams-pic"/>
-        Angers
-        </div>
-        <input
-        id="fifthGame"
-        value="Angers"
-        name="fifthGame"
-        type="radio"
-        onChange={e => setEfifthGame(e.target.value)}
-        required
-        />
-
-        <div className="nul">
-        Nul
-        <input
-        id="nul"
-        value="nul"
-        name="fifthGame"
-        type="radio"
-        onChange={e => setEfifthGame(e.target.value)}
-        />
-        </div>
-        <input
-        id="fifthGame"
-        value="Lorient"
-        name="fifthGame"
-        type="radio"
-        onChange={e => setEfifthGame(e.target.value)}
-        />
-        <div className="teamsName">
-        <img src={Lorient} alt="Lorient" className="teams-pic"/>
-        Lorient
-        </div>
-
-        </div>
-
-        <br />
-
-        <div className="games">
-
         <div className="teamsName">
         <img src={Metz} alt="Metz" className="teams-pic"/>
         Metz
         </div>
+
+        </div>
+
+        <br />
+
+        <div className="games">
+
+        <div className="teamsName">
+        <img src={SaintEtienne} alt="Saint-Etienne" className="teams-pic"/>
+        Saint-Etienne
+        </div>
+        <input
+        id="fourthGame"
+        value="Saint-Etienne"
+        name="fourthGame"
+        type="radio"
+        onChange={e => setDfourthGame(e.target.value)}
+        required
+        />
+
+        <div className="nul">
+        Nul
+        <input
+        id="nul"
+        value="nul"
+        name="fourthGame"
+        type="radio"
+        onChange={e => setDfourthGame(e.target.value)}
+        />
+        </div>
+        <input
+        id="fourthGame"
+        value="PSG"
+        name="fourthGame"
+        type="radio"
+        onChange={e => setDfourthGame(e.target.value)}
+        />
+        <div className="teamsName">
+        <img src={PSG} alt="PSG" className="teams-pic"/>
+        PSG
+        </div>
+
+        </div>
+
+        <br />
+
+        <div className="games">
+
+        <div className="teamsName">
+        <img src={Bordeaux} alt="Bordeaux" className="teams-pic"/>
+        Bordeaux
+        </div>
+        <input
+        id="fifthGame"
+        value="Bordeaux"
+        name="fifthGame"
+        type="radio"
+        onChange={e => setEfifthGame(e.target.value)}
+        required
+        />
+
+        <div className="nul">
+        Nul
+        <input
+        id="nul"
+        value="nul"
+        name="fifthGame"
+        type="radio"
+        onChange={e => setEfifthGame(e.target.value)}
+        />
+        </div>
+        <input
+        id="fifthGame"
+        value="Brest"
+        name="fifthGame"
+        type="radio"
+        onChange={e => setEfifthGame(e.target.value)}
+        />
+        <div className="teamsName">
+        <img src={Brest} alt="Brest" className="teams-pic"/>
+        Brest
+        </div>
+
+        </div>
+
+        <br />
+
+        <div className="games">
+
+        <div className="teamsName">
+        <img src={Lorient} alt="Lorient" className="teams-pic"/>
+        Lorient
+        </div>
         <input
         id="sixthGame"
-        value="Metz"
+        value="Lorient"
         name="sixthGame"
         type="radio"
         onChange={e => setFsixthGame(e.target.value)}
@@ -307,14 +307,14 @@ export default function Pronos() {
         </div>
         <input
         id="sixthGame"
-        value="Bordeaux"
+        value="Rennes"
         name="sixthGame"
         type="radio"
         onChange={e => setFsixthGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={Bordeaux} alt="Bordeaux" className="teams-pic"/>
-        Bordeaux
+        <img src={Rennes} alt="Rennes" className="teams-pic"/>
+        Rennes
         </div>
 
         </div>
@@ -324,8 +324,27 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={Strasbourg} alt="Strasbourg" className="teams-pic"/>
-        Strasbourg
+        <img src={Monaco} alt="Monaco" className="teams-pic"/>
+        Monaco
+        </div>
+        <input
+        id="seventhGame"
+        value="Monaco"
+        name="seventhGame"
+        type="radio"
+        onChange={e => setGseventhGame(e.target.value)}
+        required
+        />
+
+        <div className="nul">
+        Nul
+        <input
+        id="nul"
+        value="nul"
+        name="seventhGame"
+        type="radio"
+        onChange={e => setGseventhGame(e.target.value)}
+        />
         </div>
         <input
         id="seventhGame"
@@ -333,29 +352,10 @@ export default function Pronos() {
         name="seventhGame"
         type="radio"
         onChange={e => setGseventhGame(e.target.value)}
-        required
-        />
-
-        <div className="nul">
-        Nul
-        <input
-        id="nul"
-        value="nul"
-        name="seventhGame"
-        type="radio"
-        onChange={e => setGseventhGame(e.target.value)}
-        />
-        </div>
-        <input
-        id="seventhGame"
-        value="Reims"
-        name="seventhGame"
-        type="radio"
-        onChange={e => setGseventhGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={Reims} alt="Reims" className="teams-pic"/>
-        Reims
+        <img src={Strasbourg} alt="Strasbourg" className="teams-pic"/>
+        Strasbourg
         </div>
 
         </div>
@@ -365,12 +365,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={Troyes} alt="Troyes" className="teams-pic"/>
-        Troyes
+        <img src={Reims} alt="Reims" className="teams-pic"/>
+        Reims
         </div>
         <input
         id="eigthGame"
-        value="Troyes"
+        value="Reims"
         name="eigthGame"
         type="radio"
         onChange={e => setHeightGame(e.target.value)}
@@ -389,14 +389,14 @@ export default function Pronos() {
         </div>
         <input
         id="eigthGame"
-        value="Saint-Etienne"
+        value="Clermont Foot"
         name="eigthGame"
         type="radio"
         onChange={e =>setHeightGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={SaintEtienne} alt="Saint-Etienne" className="teams-pic"/>
-        Saint-Etienne
+        <img src={Clermont} alt="Clermont Foot" className="teams-pic"/>
+        Clermont Foot
         </div>
 
         </div>
@@ -406,12 +406,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={Clermont} alt="Clermont Foot" className="teams-pic"/>
-        Clermont Foot
+        <img src={Montpellier} alt="Montpellier" className="teams-pic"/>
+        Montpellier
         </div>
         <input
         id="ninethGame"
-        value="Clermont Foot"
+        value="Montpellier"
         name="ninethGame"
         type="radio"
         onChange={e => setIninethGame(e.target.value)}
@@ -430,44 +430,25 @@ export default function Pronos() {
         </div>
         <input
         id="ninethGame"
-        value="Nice"
+        value="Lyon"
         name="ninethGame"
         type="radio"
         onChange={e => setIninethGame(e.target.value)}
         />
-        <div className="teamsName">
-        <img src={Nice} alt="Nice" className="teams-pic"/>
-        Nice
-        </div>
-
-        </div>
-
-        <br />
-
-        <div className="games">
-
         <div className="teamsName">
         <img src={Lyon} alt="Lyon" className="teams-pic"/>
         Lyon
         </div>
-        <input
-        id="tenthGame"
-        value="Lyon"
-        name="tenthGame"
-        type="radio"
-        onChange={e => setJtenthGame(e.target.value)}
-        required
-        />
 
-        <div className="nul">
-        Nul
-        <input
-        id="nul"
-        value="nul"
-        name="tenthGame"
-        type="radio"
-        onChange={e => setJtenthGame(e.target.value)}
-        />
+        </div>
+
+        <br />
+
+        <div className="games">
+
+        <div className="teamsName">
+        <img src={Marseille} alt="Marseille" className="teams-pic"/>
+        Marseille
         </div>
         <input
         id="tenthGame"
@@ -475,10 +456,29 @@ export default function Pronos() {
         name="tenthGame"
         type="radio"
         onChange={e => setJtenthGame(e.target.value)}
+        required
+        />
+
+        <div className="nul">
+        Nul
+        <input
+        id="nul"
+        value="nul"
+        name="tenthGame"
+        type="radio"
+        onChange={e => setJtenthGame(e.target.value)}
+        />
+        </div>
+        <input
+        id="tenthGame"
+        value="Troyes"
+        name="tenthGame"
+        type="radio"
+        onChange={e => setJtenthGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={Marseille} alt="Marseille" className="teams-pic"/>
-        Marseille
+        <img src={Troyes} alt="Troyes" className="teams-pic"/>
+        Troyes
         </div>
 
         </div>
@@ -501,7 +501,7 @@ export default function Pronos() {
                       required
                     />
 
-                    <button disabled>Envoyer</button>
+                    <button>Envoyer</button>
                   </form>
                   : <div>
                     <div><Loading /></div>
