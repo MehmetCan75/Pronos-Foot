@@ -17,13 +17,13 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Fateh</li>
-            <li className="nm">119</li>
-            <li className="nm">61</li>
+            <li className="nm">129</li>
+            <li className="nm">65</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Ismaël</li>
-            <li className="nm">109</li>
-            <li className="nm">54</li>
+            <li className="nm">119</li>
+            <li className="nm">58</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Stéphane</li>
@@ -31,19 +31,19 @@ export default function Classement() {
             <li className="nm">51</li>
         </ul>
         <ul className="name-games-points">
-            <li className="nm">Nicolas</li>
+            <li className="nm">Anthony</li>
             <li className="nm">119</li>
-            <li className="nm">48</li>
+            <li className="nm">50</li>
         </ul>
         <ul className="name-games-points">
-            <li className="nm">Anthony</li>
-            <li className="nm">109</li>
-            <li className="nm">47</li>
+            <li className="nm">Nicolas</li>
+            <li className="nm">129</li>
+            <li className="nm">49</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Youssef</li>
-            <li className="nm">89</li>
-            <li className="nm">44</li>
+            <li className="nm">99</li>
+            <li className="nm">49</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Abder</li>
