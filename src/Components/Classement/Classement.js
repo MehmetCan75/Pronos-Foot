@@ -12,43 +12,43 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Mehmet</li>
-            <li className="nm">149</li>
-            <li className="nm">75</li>
+            <li className="nm">159</li>
+            <li className="nm">79</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Fateh</li>
+            <li className="nm">159</li>
+            <li className="nm">75</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Ismaël</li>
             <li className="nm">149</li>
             <li className="nm">71</li>
         </ul>
         <ul className="name-games-points">
-            <li className="nm">Ismaël</li>
-            <li className="nm">139</li>
-            <li className="nm">66</li>
-        </ul>
-        <ul className="name-games-points">
             <li className="nm">Nicolas</li>
-            <li className="nm">149</li>
-            <li className="nm">60</li>
+            <li className="nm">159</li>
+            <li className="nm">64</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Stéphane</li>
-            <li className="nm">129</li>
-            <li className="nm">59</li>
+            <li className="nm">139</li>
+            <li className="nm">63</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Anthony</li>
-            <li className="nm">129</li>
-            <li className="nm">53</li>
+            <li className="nm">139</li>
+            <li className="nm">57</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Youssef</li>
-            <li className="nm">109</li>
-            <li className="nm">52</li>
+            <li className="nm">119</li>
+            <li className="nm">56</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Abder</li>
-            <li className="nm">109</li>
-            <li className="nm">43</li>
+            <li className="nm">119</li>
+            <li className="nm">46</li>
         </ul>
 
 
