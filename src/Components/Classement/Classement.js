@@ -12,33 +12,33 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Mehmet</li>
-            <li className="nm">175</li>
-            <li className="nm">87</li>
+            <li className="nm">185</li>
+            <li className="nm">95</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Fateh</li>
-            <li className="nm">175</li>
-            <li className="nm">83</li>
+            <li className="nm">185</li>
+            <li className="nm">88</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Ismaël</li>
+            <li className="nm">175</li>
+            <li className="nm">84</li>
+        </ul>
+        <ul className="name-games-points">
+            <li className="nm">Stéphane</li>
             <li className="nm">165</li>
             <li className="nm">78</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Nicolas</li>
-            <li className="nm">175</li>
-            <li className="nm">71</li>
-        </ul>
-        <ul className="name-games-points">
-            <li className="nm">Stéphane</li>
-            <li className="nm">155</li>
-            <li className="nm">70</li>
+            <li className="nm">185</li>
+            <li className="nm">77</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Anthony</li>
-            <li className="nm">155</li>
-            <li className="nm">61</li>
+            <li className="nm">165</li>
+            <li className="nm">68</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Youssef</li>
@@ -47,8 +47,8 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Abder</li>
-            <li className="nm">128</li>
-            <li className="nm">49</li>
+            <li className="nm">138</li>
+            <li className="nm">56</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Hamed</li>

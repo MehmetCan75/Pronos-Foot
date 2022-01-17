@@ -50,7 +50,8 @@ export default function Pronos() {
         e.preventDefault();
 
     axios
-        .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
+        .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,name})
+        // .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
         .then((res) => {
             console.log(res);
             setThanks({
@@ -77,12 +78,12 @@ export default function Pronos() {
         <div className="games">
 
       <div className="teamsName">
-      <img src={Nice} alt="Nice" className="teams-pic"/>
-      Nice
+      <img src={Clermont} alt="Clermont Foot" className="teams-pic"/>
+      Clermont Foot
         </div>
         <input
           id="firstGame"
-          value="Nice"
+          value="Clermont Foot"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
@@ -102,14 +103,14 @@ export default function Pronos() {
        
         <input
           id="firstGame"
-          value="Nantes"
+          value="Strasbourg"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
           />
           <div className="teamsName">
-       <img src={Nantes} alt="Nantes" className="teams-pic"/>
-       Nantes
+       <img src={Strasbourg} alt="Strasbourg" className="teams-pic"/>
+       Strasbourg
         </div>
 
         </div>
@@ -119,12 +120,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={SaintEtienne} alt="Saint-Etienne" className="teams-pic"/>
-        Saint-Etienne
+        <img src={Lille} alt="Lille" className="teams-pic"/>
+        Lille
         </div>
         <input
         id="secondGame"
-        value="Saint-Etienne"
+        value="Lille"
         name="secondGame"
         type="radio"
         onChange={e => setBsecondGame(e.target.value)}
@@ -143,14 +144,14 @@ export default function Pronos() {
         </div>
         <input
         id="secondGame"
-        value="Lens"
+        value="Lorient"
         name="secondGame"
         type="radio"
         onChange={e => setBsecondGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={Lens} alt="Lens" className="teams-pic"/>
-        Lens
+        <img src={Lorient} alt="Lorient" className="teams-pic"/>
+        Lorient
         </div>
 
         </div>
@@ -160,12 +161,12 @@ export default function Pronos() {
         <div className="games">
 
         <div className="teamsName">
-        <img src={PSG} alt="PSG" className="teams-pic"/>
-        PSG
+        <img src={Montpellier} alt="Montpellier" className="teams-pic"/>
+        Montpellier
         </div>
         <input
         id="cthirdGame"
-        value="PSG"
+        value="Montpellier"
         name="cthirdGame"
         type="radio"
         onChange={e => setCthirdGame(e.target.value)}
@@ -184,20 +185,20 @@ export default function Pronos() {
         </div>
         <input
         id="cthirdGame"
-        value="Brest"
+        value="Troyes"
         name="cthirdGame"
         type="radio"
         onChange={e => setCthirdGame(e.target.value)}
         />
         <div className="teamsName">
-        <img src={Brest} alt="Brest" className="teams-pic"/>
-        Brest
+        <img src={Troyes} alt="Troyes" className="teams-pic"/>
+        Troyes
         </div>
 
         </div>
 
         <br />
-
+{/* 
         <div className="games">
 
         <div className="teamsName">
@@ -481,7 +482,7 @@ export default function Pronos() {
         Lille
         </div>
 
-        </div>
+        </div> */}
 
         <br />
 
@@ -501,7 +502,7 @@ export default function Pronos() {
                       required
                     />
 
-                    <button disabled>Envoyer</button>
+                    <button>Envoyer</button>
                   </form>
                   : <div>
                     <div><Loading /></div>
