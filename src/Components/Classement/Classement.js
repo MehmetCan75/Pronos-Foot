@@ -12,33 +12,33 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Mehmet</li>
-            <li className="nm">185</li>
-            <li className="nm">95</li>
+            <li className="nm">188</li>
+            <li className="nm">96</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Fateh</li>
-            <li className="nm">185</li>
-            <li className="nm">88</li>
+            <li className="nm">188</li>
+            <li className="nm">89</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Ismaël</li>
-            <li className="nm">175</li>
-            <li className="nm">84</li>
+            <li className="nm">178</li>
+            <li className="nm">86</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Stéphane</li>
-            <li className="nm">165</li>
-            <li className="nm">78</li>
+            <li className="nm">168</li>
+            <li className="nm">80</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Nicolas</li>
-            <li className="nm">185</li>
-            <li className="nm">77</li>
+            <li className="nm">188</li>
+            <li className="nm">79</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Anthony</li>
-            <li className="nm">165</li>
-            <li className="nm">68</li>
+            <li className="nm">168</li>
+            <li className="nm">69</li>
         </ul>
         <ul className="name-games-points">
             <li className="nm">Youssef</li>
@@ -52,8 +52,8 @@ export default function Classement() {
         </ul>
         <ul className="name-games-points">
             <li className="nm">Hamed</li>
-            <li className="nm">16</li>
-            <li className="nm">8</li>
+            <li className="nm">19</li>
+            <li className="nm">9</li>
         </ul>
 
 
