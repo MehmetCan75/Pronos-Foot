@@ -6,8 +6,8 @@ export default function ResultDisplay(props) {
     <div>
         <h3 className="playerName">Nom : {props.name}</h3>
         <ul className="displayResult">
-            <li>Lyon - Saint-Etienne : {props.afirstGame}</li>
-            <li>Brest - Lille : {props.bsecondGame}</li>
+            <li>Angers - Saint-Etienne : {props.afirstGame}</li>
+            {/* <li>Brest - Lille : {props.bsecondGame}</li>
             <li>Lens - Marseille : {props.cthirdGame}</li>
             <li>Metz - Nice : {props.dfourthGame}</li>
             <li>Angers - Troyes : {props.efifthGame}</li>
@@ -15,7 +15,7 @@ export default function ResultDisplay(props) {
             <li>Clermont Foot - Rennes : {props.gseventhGame}</li>
             <li>Nantes - Lorient : {props.heigthGame}</li>
             <li>Montpellier - Monaco : {props.ininethGame}</li>
-            <li>PSG - Reims : {props.jtenthGame}</li>
+            <li>PSG - Reims : {props.jtenthGame}</li> */}
             </ul>
     </div>
   )

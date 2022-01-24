@@ -50,7 +50,8 @@ export default function Pronos() {
         e.preventDefault();
 
     axios
-        .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
+        // .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame,bsecondGame,cthirdGame,dfourthGame,efifthGame,fsixthGame,gseventhGame,heigthGame,ininethGame,jtenthGame, name})
+        .post('https://pronos-foot-2-default-rtdb.europe-west1.firebasedatabase.app/result.json',{afirstGame, name})
         .then((res) => {
             console.log(res);
             setThanks({
@@ -77,12 +78,12 @@ export default function Pronos() {
         <div className="games">
 
       <div className="teamsName">
-      <img src={Lyon} alt="Lyon" className="teams-pic"/>
-      Lyon
+      <img src={Angers} alt="Angers" className="teams-pic"/>
+      Angers
         </div>
         <input
           id="firstGame"
-          value="Lyon"
+          value="Angers"
           name="firstGame"
           type="radio"
           onChange={e => setAfirstGame(e.target.value)}
@@ -116,7 +117,7 @@ export default function Pronos() {
 
         <br />
 
-        <div className="games">
+        {/* <div className="games">
 
         <div className="teamsName">
         <img src={Brest} alt="Brest" className="teams-pic"/>
@@ -483,7 +484,7 @@ export default function Pronos() {
 
         </div> 
 
-        <br />
+        <br /> */}
 
 
 
@@ -501,7 +502,7 @@ export default function Pronos() {
                       required
                     />
 
-                    <button disabled>Envoyer</button>
+                    <button>Envoyer</button>
                   </form>
                   : <div>
                     <div><Loading /></div>
