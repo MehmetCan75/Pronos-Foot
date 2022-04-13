@@ -6,16 +6,16 @@ export default function ResultDisplay(props) {
     <div>
         <h3 className="playerName">Nom : {props.name}</h3>
         <ul className="displayResult">
-            <li>Lorient - Saint-Etienne : {props.afirstGame}</li>
-            <li>Reims - Rennes : {props.bsecondGame}</li>
-            <li>Clermont Foot - PSG : {props.cthirdGame}</li>
-            <li>Bordeaux - Metz : {props.dfourthGame}</li>
-            <li>Angers - Lille : {props.efifthGame}</li>
-            <li>Brest - Nantes : {props.fsixthGame}</li>
-            <li>Monaco - Troyes : {props.gseventhGame}</li>
-            <li>Lens - Nice : {props.heigthGame}</li>
-            <li>Strasbourg - Lyon : {props.ininethGame}</li>
-            <li>Marseille - Montpellier : {props.jtenthGame}</li>
+            <li>Rennes - Monaco : {props.afirstGame}</li>
+            <li>Saint-Etienne - Brest : {props.bsecondGame}</li>
+            <li>Lille - Lens : {props.cthirdGame}</li>
+            <li>Nice - Lorient : {props.dfourthGame}</li>
+            <li>Metz - Clermont Foot : {props.efifthGame}</li>
+            <li>Montpellier - Reims : {props.fsixthGame}</li>
+            <li>Nantes - Angers : {props.gseventhGame}</li>
+            <li>Troyes - Strasbourg : {props.heigthGame}</li>
+            <li>Lyon - Bordeaux : {props.ininethGame}</li>
+            <li>PSG - Marseille : {props.jtenthGame}</li>
             </ul>
     </div>
   )
