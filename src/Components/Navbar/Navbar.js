@@ -38,7 +38,7 @@ export default function Navbar() {
          <img src={FootImg} alt="foot-img" className="foot-img"/>
            </div> */}
     <nav>
-        {(toggleMenu || largeur > 500)  && (
+        {(toggleMenu || largeur > 400)  && (
      <ul className="liste">
          <Link to="/Pronos-Foot" onClick={closeMenu}>
          <li className="items">Accueil</li>
@@ -48,7 +48,7 @@ export default function Navbar() {
          </Link>
      </ul>
         )}
-     <button onClick={toggleNav} className="btn">Menu</button>
+     {/* <button onClick={toggleNav} className="btn">Menu</button> */}
     </nav>
 
     </div>
