@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NewHomePage/static/css/main.f609fcda.css",
-    "main.js": "/NewHomePage/static/js/main.0c20cca3.js",
+    "main.js": "/NewHomePage/static/js/main.37fd81e3.js",
     "static/media/montpellier.png": "/NewHomePage/static/media/montpellier.34a9b39484f00d0a8cf1.png",
     "static/media/reims.png": "/NewHomePage/static/media/reims.d8df5802c1c38207464c.png",
     "static/media/ligue 1.jpeg": "/NewHomePage/static/media/ligue 1.0498fa8bd76e2dda8cf9.jpeg",
@@ -24,10 +24,10 @@
     "static/media/metz.svg": "/NewHomePage/static/media/metz.3c2f5e410bd06d120f9c59c7672d38a6.svg",
     "index.html": "/NewHomePage/index.html",
     "main.f609fcda.css.map": "/NewHomePage/static/css/main.f609fcda.css.map",
-    "main.0c20cca3.js.map": "/NewHomePage/static/js/main.0c20cca3.js.map"
+    "main.37fd81e3.js.map": "/NewHomePage/static/js/main.37fd81e3.js.map"
   },
   "entrypoints": [
     "static/css/main.f609fcda.css",
-    "static/js/main.0c20cca3.js"
+    "static/js/main.37fd81e3.js"
   ]
 }
