@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.f7f96b3a.css",
-    "main.js": "/Pronos-Foot/static/js/main.572e5b00.js",
+    "main.css": "/Pronos-Foot/static/css/main.d0bdc97e.css",
+    "main.js": "/Pronos-Foot/static/js/main.3d6c2438.js",
     "static/media/montpellier.png": "/Pronos-Foot/static/media/montpellier.34a9b39484f00d0a8cf1.png",
     "static/media/reims.png": "/Pronos-Foot/static/media/reims.d8df5802c1c38207464c.png",
     "static/media/ligue 1.jpeg": "/Pronos-Foot/static/media/ligue 1.0498fa8bd76e2dda8cf9.jpeg",
@@ -23,11 +23,11 @@
     "static/media/lille.svg": "/Pronos-Foot/static/media/lille.fcfea09a895342a4c0052f4d830a8215.svg",
     "static/media/metz.svg": "/Pronos-Foot/static/media/metz.3c2f5e410bd06d120f9c59c7672d38a6.svg",
     "index.html": "/Pronos-Foot/index.html",
-    "main.f7f96b3a.css.map": "/Pronos-Foot/static/css/main.f7f96b3a.css.map",
-    "main.572e5b00.js.map": "/Pronos-Foot/static/js/main.572e5b00.js.map"
+    "main.d0bdc97e.css.map": "/Pronos-Foot/static/css/main.d0bdc97e.css.map",
+    "main.3d6c2438.js.map": "/Pronos-Foot/static/js/main.3d6c2438.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7f96b3a.css",
-    "static/js/main.572e5b00.js"
+    "static/css/main.d0bdc97e.css",
+    "static/js/main.3d6c2438.js"
   ]
 }
