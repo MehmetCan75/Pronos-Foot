@@ -1,0 +1,254 @@
+.pronos {
+  background-color: black;
+  height: 100%;
+  width: 100vw;
+  color: white;
+}
+
+.pronos h1 {
+  color: white;
+  font-family: cursive;
+  font-size: large;
+}
+
+.title-fr {
+  width: 100%;
+  height: 180px;
+  background-image: url("./Background/ligue\ 1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.teams-pic {
+  height: 45px;
+  width: fit-content;
+  margin: 4px;
+  top: 70%;
+}
+
+
+.games {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nul {
+  display: flex;
+  flex-flow: column;
+  margin-right: -18px;
+}
+
+.teamsName {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.showLoad {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: visible;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.showMerci {
+  animation: cssAnimations 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimations {
+  to {
+    visibility: visible;
+  }
+}
+
+.teams-pic {
+  --a: 20deg; /* control the angle of rotation (the smaller, the better) */
+  aspect-ratio: 1.1;
+  border-radius: 200px;
+  transform: perspective(50px)
+    rotate3d(var(--r, 1, -1), 0, calc(var(--i, 2) * var(--a)));
+;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.teams-pic {
+  --r: 1, 1;
+  mask: linear-gradient(60deg, #000c 40%, #000, #000c 60%) 0 20%/50%
+    100%;
+}
+
+.teams-pic:hover {
+  mask-position: 100% 0;
+}
+
+
+
+.games input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.balls{
+    background-image:url('./Background/balle.png');
+
+}
+
+.games input:active +.drinkcard-cc{opacity: .9;}
+.games input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:50px;height:50px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+
+
+.prenom{
+  margin-bottom: 30px;
+}
+
+.sendButton{
+  margin-left: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+  }
+  
+  .sendButton:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  .sendButton:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+   .sendButton:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  
+
+
+@media screen and (max-width: 780px) {
+  .games {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .teamsName {
+    width: 27vw;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .title-fr {
+    height: 350px;
+  }
+  .nul {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin-right: -120px;
+  }
+
+  .games {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .teamsName{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    width: 200px;
+    margin-left: 50px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.marquee-rtl {
+  max-width: 30em;  
+                  
+  margin: 1em auto 2em;
+  border: 6px solid #F0F0FF;
+  color: #fff;
+  text-shadow:  0 0 7px #fff, 
+           0 0 10px #fff, 
+           0 0 42px rgb(230, 18, 124),   
+           0 0 77px rgb(230, 18, 124), 
+           0 0 100px rgb(230, 18, 124) ;
+  overflow: hidden;                    
+  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+}
+
+.marquee-rtl > :first-child {
+  display: inline-block;                /* modèle de boîte en ligne */
+  padding-right: 2em;                   /* un peu d'espace pour la transition */
+  padding-left: 100%;                   /* placement à droite du conteneur */
+  white-space: nowrap;                  /* pas de passage à la ligne */
+  animation: defilement-rtl 15s infinite linear;
+
+animation-name: defilement-rtl;       /* référence à la règle @keyframes mise en oeuvre */
+  animation-duration: 15s;              /* valeur à ajuster suivant la longueur du message */
+  animation-iteration-count: infinite;  /* boucle continue */
+  animation-timing-function: linear; 
+}
+
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0,0,0);      /* position initiale à droite */
+  }
+  100% {
+    transform: translate3d(-100%,0,0);  /* position finale à gauche */
+  }
+}

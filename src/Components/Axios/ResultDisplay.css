@@ -1,0 +1,24 @@
+.displayResult {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    background-color: grey;
+    width: max-content;
+}
+
+.displayResult li {
+    width: 100%;
+    display: inline-flex;
+}
+
+
+
+.playerName{
+    color: white;
+}
+
+@media screen and (min-width: 510px) {
+    .displayResult li{
+        margin-right: 50%
+    }
+}
