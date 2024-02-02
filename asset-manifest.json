@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pronos-Foot/static/css/main.1ddabe96.css",
+    "main.css": "/Pronos-Foot/static/css/main.0835aa71.css",
     "main.js": "/Pronos-Foot/static/js/main.a61bfd67.js",
     "static/media/montpellier.png": "/Pronos-Foot/static/media/montpellier.34a9b39484f00d0a8cf1.png",
     "static/media/reims.png": "/Pronos-Foot/static/media/reims.d8df5802c1c38207464c.png",
@@ -23,11 +23,11 @@
     "static/media/lille.svg": "/Pronos-Foot/static/media/lille.fcfea09a895342a4c0052f4d830a8215.svg",
     "static/media/metz.svg": "/Pronos-Foot/static/media/metz.3c2f5e410bd06d120f9c59c7672d38a6.svg",
     "index.html": "/Pronos-Foot/index.html",
-    "main.1ddabe96.css.map": "/Pronos-Foot/static/css/main.1ddabe96.css.map",
+    "main.0835aa71.css.map": "/Pronos-Foot/static/css/main.0835aa71.css.map",
     "main.a61bfd67.js.map": "/Pronos-Foot/static/js/main.a61bfd67.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ddabe96.css",
+    "static/css/main.0835aa71.css",
     "static/js/main.a61bfd67.js"
   ]
 }
