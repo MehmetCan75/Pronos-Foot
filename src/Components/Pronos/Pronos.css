@@ -35,8 +35,6 @@
   justify-content: center;
 }
 
-
-
 .teamsName {
   display: flex;
   align-items: center;
@@ -180,6 +178,10 @@
   .teamsName {
     width: 27vw;
   }
+
+  .sendButton{
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 780px) {
@@ -205,6 +207,8 @@
     width: 200px;
     margin-left: 50px;
   }
+
+
 
 
 }

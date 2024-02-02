@@ -81,15 +81,22 @@ nav {
 @media screen and  (max-width:350px){
 
     .liste {
-        flex-direction: column;
-        height: auto;
+        justify-content: space-evenly;
         padding: 0;
+
+        display: flex;
+        width: 100%;
+        margin: auto;
+        max-width: 1000px;
+        text-align: center;
+        list-style-type: none;
+        padding-left: initial;
     }
 
     .items {
         height: 70px;
         width: 100%;
-        border-top: 1px solid rgba(255, 255,255, 0.6);
+        /* border-top: 1px solid rgba(255, 255,255, 0.6); */
         line-height: 70px;
         text-align: center;
         padding: 0;
@@ -100,6 +107,13 @@ nav {
         display: block
     }
 
+    .nav{
+      display: flex;
+      justify-content: center;
+      position: unset;
+      width: 30%;
+      height: 80px;
+    }
 
 } 
 
