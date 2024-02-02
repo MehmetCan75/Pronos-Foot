@@ -91,6 +91,9 @@ export default function Pronos() {
               <img src={Angers} alt="Angers" className="teams-pic" />
               Angers
             </div>
+
+            <div className="disBalls">
+
             <input
               id="Angers"
               value="Angers"
@@ -103,7 +106,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="Angers"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul"
                 value="nul"
@@ -123,6 +126,8 @@ export default function Pronos() {
             />
 
             <label class="drinkcard-cc balls" for="ssGame"></label>
+
+            </div>
 
             <div className="teamsName">
               <img src={Montpellier} alt="Montpellier" className="teams-pic" />
@@ -146,10 +151,12 @@ export default function Pronos() {
               required
             />
 
+            <div className="disBalls">
+
             <label class="drinkcard-cc balls" for="Brest"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul2"
                 value="nul"
@@ -169,13 +176,15 @@ export default function Pronos() {
 
             <label class="drinkcard-cc balls" for="Bordeaux"></label>
 
+            </div>
             <div className="teamsName">
               <img src={Bordeaux} alt="Bordeaux" className="teams-pic" />
               Bordeaux
             </div>
           </div>
-
           <br />
+          
+
 
           <div className="games">
             <div className="teamsName">
@@ -194,7 +203,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="clermont"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul3"
                 value="nul"
@@ -237,7 +246,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="lens"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul4"
                 value="nul"
@@ -282,7 +291,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="lille"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul5"
                 value="nul"
@@ -327,7 +336,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="lorient"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul6"
                 value="nul"
@@ -372,7 +381,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="marseille"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul7"
                 value="nul"
@@ -417,7 +426,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="nantes"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul8"
                 value="nul"
@@ -466,7 +475,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="psg"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul9"
                 value="nul"
@@ -511,7 +520,7 @@ export default function Pronos() {
             <label class="drinkcard-cc balls" for="reims"></label>
 
             <div className="nul">
-              Nul
+            Nul
               <input
                 id="nul10"
                 value="nul"
