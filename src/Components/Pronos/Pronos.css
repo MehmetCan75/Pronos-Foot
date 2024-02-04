@@ -43,7 +43,7 @@
 
 .disBalls{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 2vh;
 }
 
@@ -192,23 +192,21 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
-    margin-right: -120px;
+
   }
 
   .games {
     display: flex;
-    justify-content: space-around;
+    justify-content: auto;
   }
 
   .teamsName{
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-direction: column-reverse;
     width: 200px;
-    margin-left: 50px;
+
   }
-
-
 
 
 }
